@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:id="@+id/tempUnit"
+        android:defaultValue="true"
+        android:key="degrees_fahrenheit"
+        android:summaryOff="\u2109"
+        android:summaryOn="\u2103"
+        android:textStyle="bold"
+        android:title="Temperature Unit" />
+    <PreferenceCategory
+        android:title="Greenhouse presets">
+        <EditTextPreference
+            android:id="@+id/soilMoisturePref"
+            android:defaultValue="12"
+            android:key="moisture"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:digits="true"
+            android:title="Soil moisture Level" />
+        <EditTextPreference
+            android:id="@+id/humidityPref"
+            android:defaultValue="12"
+            android:digits="true"
+            android:maxLength="3"
+            android:key="humidity"
+            android:title="Humidity Level" />
+        <EditTextPreference
+            android:id="@+id/tempPref"
+            android:defaultValue="12"
+            android:maxLength="3"
+            android:key="temperature"
+            android:title="Temperature Level" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

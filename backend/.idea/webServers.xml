@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="16194203-6734-4507-9414-ce096bfcbf5d" name="xampp" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\iotgreenhouse" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
